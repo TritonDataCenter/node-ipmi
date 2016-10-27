@@ -1,0 +1,25 @@
+{
+  "name": "ipmi",
+  "version": "0.0.0",
+  "description": "Intelligent Platform Management Interface (IPMI) Client",
+  "main": "./lib/client.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joyent/node-ipmi.git"
+  },
+  "keywords": [
+    "ipmi"
+  ],
+  "author": "Joyent, Inc. (joyent.com)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/joyent/node-ipmi/issues"
+  },
+  "homepage": "https://github.com/joyent/node-ipmi#readme",
+  "dependencies": {
+    "assert-plus": "^0.2.0",
+    "extsprintf": "^1.3.0",
+    "jsprim": "^1.2.2",
+    "vasync": "^1.6.3"
+  }
+}
